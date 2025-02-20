@@ -32,17 +32,13 @@ python black_hole_phase.py
 
 - **Black Hole Thermodynamics**: The project models black holes as thermodynamic systems, where mass acts as internal energy and entropy is linked to horizon area.
 - **Free Energy Function**: The free energy is given by:
-  $$
-  F = M - \frac{S}{4} - \frac{Q^2}{2M}
-  $$
+    <img src="https://latex.codecogs.com/svg.latex?\large F = M - \frac{S}{4} - \frac{Q^2}{2M}" />
   where:
   - \(M\) is the mass of the black hole.
   - \(Q\) is the charge.
   - \(S = 4\pi M^2\) is the entropy approximation.
 - **Hawking Temperature**: The Hawking temperature is computed as:
-  $$
-  T_H = \frac{1}{4\pi} \left(1 - \frac{Q^2}{M^2}\right)
-  $$
+   <img src="https://latex.codecogs.com/svg.latex?\large T_H = \frac{1}{4\pi} \left(1 - \frac{Q^2}{M^2}\right)" />
   This helps analyze black hole stability and phase changes.
 - **Critical Points**: The solver finds points where the first and second derivatives of free energy vanish, indicating phase transitions.
 
